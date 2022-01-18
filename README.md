@@ -14,7 +14,7 @@ Given a tennis match video, our product is able to detect and track across time:
 3. map of the history of the match seen from above
 
 ### Output json - example
-For each frame you the position of the ball and of the playes both in pixels and meters terms considering the middle-left point of the court as origin of our reference system. Like in the example bleow:
+For each frame you the position of the ball and of the playes both in pixels and meters terms considering the middle-left point of the court as origin of our reference system (read point in the image below). Like in the example bleow:
 ```json
 {
    "0":{
@@ -59,3 +59,5 @@ For each frame you the position of the ball and of the playes both in pixels and
    }
 }
 ```
+
+![plot](court.png)
