@@ -14,49 +14,47 @@ Given a tennis match video, our product is able to detect and track across time:
 3. map of the history of the match seen from above
 
 ### Output json - example
-For each frame you the position of the ball and of the playes. Like in the example bleow:
+For each frame you the position of the ball and of the playes both in pixels and meters terms considering the middle-left point of the court as origin of our reference system. Like in the example bleow:
 ```json
 {
-   "1164":{
+   "0":{
       "ball":{
-         "x":1069,
-         "y":2671
+         "x":408,
+         "y":480,
+         "x_meters":4.094931381518756,
+         "y_meters":4.817566331198536
       },
       "plyr1":{
-         "x":660.1242478833117,
-         "y":3119.943489975537
+         "x":592.2884217322278,
+         "y":1155.6544202183013,
+         "x_meters":5.944559914366458,
+         "y_meters":11.598837136134279
       },
       "plyr2":{
-         "x":1105.7799367205557,
-         "y":366.90136620082444
+         "x":1291.9669495475773,
+         "y":-2137.3021405362415,
+         "x_meters":12.966950994086847,
+         "y_meters":-21.451239233012416
       }
    },
-   "1165":{
+   "1":{
       "ball":{
-         "x":1069,
-         "y":2672
+         "x":411,
+         "y":496,
+         "x_meters":4.125041171088746,
+         "y_meters":4.978151875571821
       },
       "plyr1":{
-         "x":661.384172464346,
-         "y":3118.0565622605427
+         "x":595.324511636396,
+         "y":1135.702461258733,
+         "x_meters":5.975031923743152,
+         "y_meters":11.398587374207045
       },
       "plyr2":{
-         "x":1107.0065524522108,
-         "y":364.9214125701079
-      }
-   },
-   "1166":{
-      "ball":{
-         "x":1069,
-         "y":2672
-      },
-      "plyr1":{
-         "x":663.208716381775,
-         "y":3118.2110872774438
-      },
-      "plyr2":{
-         "x":1108.4624330148888,
-         "y":359.9408179625466
+         "x":1288.9312987784303,
+         "y":-2138.498274642037,
+         "x_meters":12.936483392131182,
+         "y_meters":-21.46324434842008
       }
    }
 }
