@@ -1,6 +1,6 @@
 # Sparkd-Tennis
 
-Given a tennis match video, our product is able to detect and track across time:
+Given a tennis match video, our API is able to detect and track across time:
 * the tennis court
 * the players
 * the balls
